@@ -4,7 +4,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: #F8F5F2;
-    color: #5A3E36;
+    color: #3e0fe8;
 }
 header img {
     width: 100%;
@@ -13,7 +13,7 @@ header img {
 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #8D4A43;
+    background-color: #85f00b;
     display: flex;
     justify-content: center;
 }
