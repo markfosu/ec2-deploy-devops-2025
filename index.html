@@ -10,7 +10,7 @@
         .maintenance-bar {
             background: linear-gradient(45deg, #ff6b35, #f7931e, #ff6b35);
             background-size: 200% 200%;
-            animation: gradient 3s ease infinite, slide 8s linear infinite;
+            animation: gradient 3s ease infinite;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -21,12 +21,14 @@
             right: 0;
             z-index: 1000;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            overflow: hidden;
         }
         .maintenance-text {
-            animation: textPulse 1.5s ease-in-out infinite, colorShift 4s linear infinite;
+            animation: textPulse 1.5s ease-in-out infinite, colorShift 4s linear infinite, slide 8s linear infinite;
             font-size: 16px;
             letter-spacing: 2px;
             text-shadow: 0 0 10px rgba(255,255,255,0.8);
+            white-space: nowrap;
         }
         @keyframes gradient {
             0% { background-position: 0% 50%; }
